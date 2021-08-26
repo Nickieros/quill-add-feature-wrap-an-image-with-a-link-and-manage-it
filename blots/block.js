@@ -144,6 +144,8 @@ class BlockEmbed extends EmbedBlot {
     const attribute = this.scroll.query(name, Scope.BLOCK_ATTRIBUTE);
     if (attribute != null) {
       this.attributes.attribute(attribute, value);
+    } else if (name === 'link') {
+      this.wrap(name, value);
     }
   }
 
