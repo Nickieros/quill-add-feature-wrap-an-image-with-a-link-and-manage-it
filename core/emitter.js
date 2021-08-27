@@ -32,6 +32,22 @@ class Emitter extends EventEmitter {
   handleDOM(event, ...args) {
     (this.listeners[event.type] || []).forEach(function({ node, handler }) {
       if (event.target === node || node.contains(event.target)) {
+        // set a selection at the beginning of the link to call a tooltip,
+        // or select an image if it is not wrapped by the link
+        if (event.type === 'click' && node.tagName === 'IMG') {
+          event.stopPropagation();
+          const range = document.createRange();
+          const selection = window.getSelection();
+          if (node.parentElement.tagName === 'A') {
+            range.setStart(node.parentElement, 0);
+          } else {
+            range.selectNode(node);
+          }
+          selection.removeAllRanges();
+          selection.addRange(range);
+          return;
+        }
+
         handler(event, ...args);
       }
     });

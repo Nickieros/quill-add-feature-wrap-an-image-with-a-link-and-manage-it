@@ -23,6 +23,8 @@ class BlockEmbed extends Parchment.Embed {
     let attribute = Parchment.query(name, Parchment.Scope.BLOCK_ATTRIBUTE);
     if (attribute != null) {
       this.attributes.attribute(attribute, value);
+    } else if (name === 'link') {
+      this.wrap(name, value);
     }
   }
 
