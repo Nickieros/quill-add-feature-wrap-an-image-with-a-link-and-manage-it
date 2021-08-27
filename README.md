@@ -36,6 +36,12 @@
 
 To get started, check out the [Quill](https://quilljs.com/) website for documentation, guides, and live demos!
 
+## branch 1.3.6 feature added: wrap an image with a link and manage it (in this branch ONLY)
+
+- add support to wrap image with a link <a><img></a> (select image or click on it, then click on the link button)
+- call a tooltip to edit/remove a link when clicking on an image that is wrapped by a link
+- patched build for production: [dist](https://github.com/Nickieros/quill-add-feature-wrap-an-image-with-a-link-and-manage-it/tree/1.3.6/dist)
+- source code of the changes: [commit 31965e8](https://github.com/Nickieros/quill-add-feature-wrap-an-image-with-a-link-and-manage-it/commit/31965e8cc2997d7fc6a6fe18e520fe07eadbfffa)
 
 ## Quickstart
 
