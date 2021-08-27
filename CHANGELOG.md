@@ -2,8 +2,8 @@
 
 - add support to wrap image with a link <a><img></a> (select image or click on it, then click on the link button)
 - call a tooltip to edit/remove a link when clicking on an image that is wrapped by a link
-- patched build for production: [dist] (https://github.com/Nickieros/quill-add-feature-wrap-an-image-with-a-link-and-manage-it/tree/1.3.6/dist)
-- source code of the changes: [commit 3b4d317] (https://github.com/Nickieros/quill-add-feature-wrap-an-image-with-a-link-and-manage-it/commit/74165d57aa9d192dbe9c61a0dab76daf087829aa?branch=74165d57aa9d192dbe9c61a0dab76daf087829aa&diff=split)
+- patched build for production: [dist](https://github.com/Nickieros/quill-add-feature-wrap-an-image-with-a-link-and-manage-it/tree/1.3.6/dist)
+- source code of the changes: [commit 3b4d317](https://github.com/Nickieros/quill-add-feature-wrap-an-image-with-a-link-and-manage-it/commit/74165d57aa9d192dbe9c61a0dab76daf087829aa?branch=74165d57aa9d192dbe9c61a0dab76daf087829aa&diff=split)
 
 # 1.3.6
 
