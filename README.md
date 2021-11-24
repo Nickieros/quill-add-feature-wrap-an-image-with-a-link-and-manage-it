@@ -1,3 +1,10 @@
+## Patched version by Nickieros - feature added in branch 1.3.6: wrap an image with a link and manage it (in this branch ONLY)
+
+- add support to wrap image with a link <a><img></a> (select image or click on it, then click on the link button)
+- call a tooltip to edit/remove a link when clicking on an image that is wrapped by a link
+- patched build for production: [dist](https://github.com/Nickieros/quill-add-feature-wrap-an-image-with-a-link-and-manage-it/tree/1.3.6/dist)
+- changes diff: [commit 3b4d317](https://github.com/Nickieros/quill-add-feature-wrap-an-image-with-a-link-and-manage-it/commit/74165d57aa9d192dbe9c61a0dab76daf087829aa?branch=74165d57aa9d192dbe9c61a0dab76daf087829aa&diff=split)
+
 Note: This branch and README covers the upcoming 2.0 release. View [1.x docs here](https://github.com/quilljs/quill/tree/1.3.6).
 
 <h1 align="center">
@@ -37,13 +44,6 @@ Note: This branch and README covers the upcoming 2.0 release. View [1.x docs her
 [Quill](https://quilljs.com/) is a modern rich text editor built for compatibility and extensibility. It was created by [Jason Chen](https://twitter.com/jhchen) and [Byron Milligan](https://twitter.com/byronmilligan) and actively maintained by [Slab](https://slab.com).
 
 To get started, check out [https://quilljs.com/](https://quilljs.com/) for documentation, guides, and live demos!
-
-## branch 1.3.6 feature added: wrap an image with a link and manage it (in this branch ONLY)
-
-- add support to wrap image with a link <a><img></a> (select image or click on it, then click on the link button)
-- call a tooltip to edit/remove a link when clicking on an image that is wrapped by a link
-- patched build for production: [dist](https://github.com/Nickieros/quill-add-feature-wrap-an-image-with-a-link-and-manage-it/tree/1.3.6/dist)
-- source code of the changes: [commit 3b4d317](https://github.com/Nickieros/quill-add-feature-wrap-an-image-with-a-link-and-manage-it/commit/74165d57aa9d192dbe9c61a0dab76daf087829aa?branch=74165d57aa9d192dbe9c61a0dab76daf087829aa&diff=split)
 
 ## Quickstart
 
